@@ -1,4 +1,4 @@
-public class Day55 {
+public class Day16 {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         System.out.print("Masukkan angka 6 :");
