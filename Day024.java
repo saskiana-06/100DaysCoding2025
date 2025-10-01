@@ -9,6 +9,6 @@ public class Day24 {
         double r = in.nextDouble();
         
         double Luas = Math.PI * r * r;
-        System.out.println("Luas lingkaran dengan jari-jari " + r + " adalah : " + Luas);
+        System.out.printf("Luas lingkaran dengan jari-jari %.2f adalah : %.2f\n", r, Luas);
     }
 }
