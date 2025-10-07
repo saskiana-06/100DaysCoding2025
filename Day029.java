@@ -10,5 +10,5 @@ public class Day29 {
         System.out.print("masukkan angka: ");
         int s = in.nextInt();
         
-        System.out.println("Apakah nilai p sama dengan s? :" + (p > s));
-        System.out.println("Apakah nilai p tidak sama dengan s? :" + (p < s));
+        System.out.println("Apakah nilai p lebih besar dari s? :" + (p > s));
+        System.out.println("Apakah nilai p lebih kecil dari s? :" + (p < s));
