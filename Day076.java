@@ -11,26 +11,27 @@ public class Day76 {
         System.out.println();
         
         
-        //Pencetakan dengan equals 
-        System.out.println(a.equals(b)); // true
-        System.out.println(a.equals(c)); // false
+        //Pencetakan dengan equals yaitu untuk mengecek apakah dua string sama persis (huruf besar/kecil juga diperhitungkan).
+        System.out.println(a.equals(b)+ " Kata yang ada di a sama dengan b"); // true
+        System.out.println(a.equals(c)+ " Kata yang ada di c tidak sama dengan a makanya dia false"); // false
         System.out.println();
         
         
-        //Penggunaan IgnoreCase
-        System.out.println(a.equalsIgnoreCase(c)); // true
+        //Penggunaan IgnoreCase untuk membandingkan tanpa melihat huruf besar/kecil.
+        System.out.println(a.equalsIgnoreCase(c) + " "); // true
         System.out.println();
         
         
-        //Penggunaan contains
+        //Penggunaan contains Untuk mengecek apakah sebuah string mengandung kata tertentu.
         System.out.println(text.contains("DDP"));   // true
         System.out.println(text.contains("java")); // false
         System.out.println();
         
         
-        //Penggunaan empty
+        //Penggunaan empty Untuk mengecek apakah string kosong (tidak ada karakter sama sekali).
         System.out.println(kosong.isEmpty()); // true
         System.out.println(isi.isEmpty());    // false
+        // Dengan catatan jika memiliki spasi maka akan di anggap memiliki isi yang betul2 kosong adalah yang tidak memiliki spasi sama sekali.
     }
 
 }
