@@ -27,5 +27,9 @@ public class Day81 {
         } else {
             System.out.println("Penjumlahan diatas  adalah Angka Ganjil");
         }
-        
+  }
+
+}     
+
+   
         
