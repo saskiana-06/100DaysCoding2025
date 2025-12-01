@@ -2,11 +2,11 @@ public class Day85 {
     public static void main(String[] args) {
           int[] angka = {5, 2, 9, 1, 7};
 
-        int max = angka[0]; // ambil angka pertama dulu
+        int max = angka[0]; 
 
         for (int i = 1; i < angka.length; i++) {
             if (angka[i] > max) { 
-                max = angka[i];  // kalau lebih besar, ganti jadi max baru
+                max = angka[i];  
             }
         }
 
